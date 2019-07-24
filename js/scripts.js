@@ -8,6 +8,8 @@
 	Preloader
 */
 
+
+
 $(window).on("load", function() {
 	var preload = $('.preloader');
 	preload.find('.spinner').fadeOut(function(){
@@ -403,7 +405,7 @@ $(function () {
 */
 
 function initMap() {
-	var myLatlng = new google.maps.LatLng(40.773328,-73.960088); // <- Your latitude and longitude
+	var myLatlng = new google.maps.LatLng(47.580238,-122.174255); // <- Your latitude and longitude
 	var styles = [
 		{
 			"featureType": "water",
